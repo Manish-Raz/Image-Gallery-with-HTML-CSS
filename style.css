@@ -57,7 +57,7 @@
     left:140px;
     font-size: 150px;
 }
-@media (max-width:600px;){
+@media (max-width:600px){
     .album .container{
     column-count: 2;
     max-width: 35rem;
