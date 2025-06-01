@@ -60,7 +60,7 @@
 @media (max-width:600px){
     .album .container{
     column-count: 2;
-    max-width: 35rem;
+    max-width: 25rem;
 
     }
     #main h2{
@@ -79,8 +79,8 @@
 }
     .last h2{
    position: absolute;
-    left:55px;
-    font-size: 70px;
+    left:30px;
+    font-size: 30pxpx;
 }
     
 }
