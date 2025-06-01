@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+
+}
+#main h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 550;
+    padding-top: 70px;
+    -webkit-text-stroke: 2px rgb(18, 15, 1);
+    color: #f1ebeb;
+    
+}
+.album{
+    width:100%;
+    color: #f1ebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    position: relative;
+}
+.album .container{
+    column-count: 4;
+    max-width: 75rem;
+
+}
+.divider{
+    border-bottom: 4px solid #888989;
+}
+.container{
+    margin-top: 40px;
+    max-width: 500px;
+    
+}
+.container .img_box img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(57, 40, 40, 0.2);
+}
+.container .img_box img{ 
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+.container .img_box img:hover{
+    /*when we place our cursor then its size should increase a little so I have used scale of 1.02 and even tried to give 
+    little box-shadow*/
+    scale: 1.02;
+    box-shadow: 8px 8px 10px rgba(24, 44, 31, 0.6);
+}
+.last h2{
+   position: absolute;
+    left:140px;
+    font-size: 150px;
+}
